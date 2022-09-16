@@ -100,24 +100,24 @@ class DockButtons {
 		this._generateFromList();
 	
 		// Create weather button
-		this._generateFromManual(
-			'Weather',
-			'weather', 
-			() => {
-				// Toggle weather screen
-				weatherScreen.toggleWeatherScreen();
-			}
-		);
+		// this._generateFromManual(
+		// 	'Weather',
+		// 	'weather', 
+		// 	() => {
+		// 		// Toggle weather screen
+		// 		weatherScreen.toggleWeatherScreen();
+		// 	}
+		// );
 	
-		// Create menu button
-		this._generateFromManual(
-			'Dashboard',
-			'dashboard', 
-			() => {
-				// Toggle dashboard
-				dashboard.toggleDashboard();
-			}
-		);
+		// // Create menu button
+		// this._generateFromManual(
+		// 	'Dashboard',
+		// 	'dashboard', 
+		// 	() => {
+		// 		// Toggle dashboard
+		// 		dashboard.toggleDashboard();
+		// 	}
+		// );
 
 	}
 }

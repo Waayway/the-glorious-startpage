@@ -336,19 +336,9 @@ class Config {
 		// A list of websites that will be generated and put on the dock
 		const dockSites = [
 			{
-				site: 'Reddit',
-				icon: 'reddit',
-				url: 'https://reddit.com/'
-			},
-			{
 				site: 'Github',
 				icon: 'github',
 				url: 'https://github.com/'
-			},
-			{
-				site: 'Facebook',
-				icon: 'facebook',
-				url: 'https://facebook.com/'
 			},
 			{
 				site: 'Gmail',
@@ -365,16 +355,6 @@ class Config {
 				icon: 'gdrive',
 				url: 'https://drive.google.com/'
 			},
-			{
-				site: 'Twitter',
-				icon: 'twitter',
-				url: 'https://twitter.com/'
-			},
-			{
-				site: 'Material.io',
-				icon: 'materialio',
-				url: 'https://material.io/'
-			}
 		];
 
 		return dockSites;
